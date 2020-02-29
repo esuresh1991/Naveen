@@ -9,7 +9,7 @@ public abstract class Bank {
 	
 	//Non abstract methods
 	public void Credit() {
-				System.out.println("Non abstract - Credit ");						//Non abstract method
+				System.out.println("Non abstract - Credit card ");						//Non abstract method
 	}
 	
 	
