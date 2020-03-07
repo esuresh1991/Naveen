@@ -11,7 +11,8 @@ public static void main(String[] args) {
 		obj.sum(10);
 		obj.sum(10,20);
 		obj.sum("suresh");
-		
+		obj.sum(10, "suresh");
+		System.out.println(obj.sum(10, "iop"));
 	}
 	
 
@@ -43,6 +44,13 @@ public static void main(int a) {
 	public void sum(String i)
 	{
 		System.out.println("2 parameter "+ i);
+	}
+	
+	public String sum(int a, String e)
+	{
+		String b = a+e;
+		System.out.println(b);
+		return b;
 	}
 	
 }

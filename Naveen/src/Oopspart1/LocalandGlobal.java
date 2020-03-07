@@ -11,7 +11,9 @@ public class LocalandGlobal {
 		
 		LocalandGlobal obj  = new LocalandGlobal(); // Non static variable can be accessed via object
 		System.out.println(obj.g1 + obj.global);
-		System.out.println(obj.g1 + obj.global+ obj.Local());		
+		System.out.println(obj.g1 + obj.global+ obj.Local());  //return from method		
+		System.out.println(obj.g1 + obj.global+ local);  // retrun form local variable
+		obj.Local1();
 		
 	}
 	
@@ -20,6 +22,13 @@ public class LocalandGlobal {
 		int l3 = 60; //Local
 		int l4  = global + l3; 
 		return l4;
+	}
+	
+	public void Local1()
+	{
+		int l3 = 60; //Local
+		int l4  = global + l3; 
+		System.out.println(l3+l4);
 	}
 
 }
