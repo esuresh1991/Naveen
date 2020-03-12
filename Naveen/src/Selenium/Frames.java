@@ -9,7 +9,7 @@ public class Frames {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\C drive\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Suresh\\Downloads\\chromedriver_win64\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		 
 	driver.get("https://www.toolsqa.com/iframe-practice-page/");

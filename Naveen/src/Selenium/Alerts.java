@@ -1,11 +1,7 @@
 package Selenium;
 
-import java.io.File;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -14,7 +10,7 @@ public class Alerts {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.chrome.driver", "D:\\C drive\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Suresh\\Downloads\\chromedriver_win64\\chromedriver.exe");
 		 
 		// Initialize browser
 		WebDriver driver=new ChromeDriver();
@@ -38,14 +34,12 @@ public class Alerts {
 	}
 	
 	a.accept();
-	
+
+	//a.dismiss();
 	driver.findElement(By.id("login1")).sendKeys("abc");
 		
 	}
-		
-	//a.dismiss();
-	
-	
+			
 	}
 
 
