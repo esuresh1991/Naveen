@@ -21,6 +21,14 @@ public class LoopingConcept {
 			
 		}
 		
+		System.out.println("*******************");
+		
+		 int i=9;  
+		    do{  
+		        System.out.println(i);  
+		    i++;  
+		    }while(i<=10);
+		
 	}
 
 }

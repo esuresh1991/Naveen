@@ -27,7 +27,7 @@ public class Palindrome {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-P(1200);
+P(02120);
 	}
 
 }

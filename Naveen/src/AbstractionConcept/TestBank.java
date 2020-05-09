@@ -21,7 +21,7 @@ public class TestBank {
 		c.Debit();
 		c.Loan();
 		
-		//Bank d = new Bank();   we can create object for Abstract/interface class
+		//Bank d = new Bank();   we cant create object for Abstract/interface class
 		
 		
 	}

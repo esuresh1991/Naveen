@@ -4,7 +4,8 @@ public class ThreeClass {
 
 	public static void main(String[] args) {
 
-
+		ThreeClass a = new ThreeClass();
+  a.N();
 	}
 
 	  public void N()

@@ -1,5 +1,7 @@
 package Selenium;
 
+import java.util.Set;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -37,9 +39,13 @@ public class Alerts {
 
 	//a.dismiss();
 	driver.findElement(By.id("login1")).sendKeys("abc");
-		
+
+
 	}
-			
+	
+	
+
+	
 	}
 
 
